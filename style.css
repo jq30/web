@@ -4,6 +4,7 @@ body {
 	border-style: solid;
 	border-width: 10px;
 	border-color: gray;
+	padding: 3px;
 }
 
 h1 {
@@ -23,7 +24,7 @@ p {
 	border-style: none none none solid;
 	border-color: #eeeeee;
 	background-color: #545763;
-	padding: 2px;
+	padding: 3px;
 }
 
 a {
