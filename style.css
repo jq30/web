@@ -1,10 +1,10 @@
 body {
 	background-color: rgb(54,57,63);
 	color: white;
-	border-style: solid;
-	border-width: 10px;
+	border-style: dashed;
+	border-width: 2px;
 	border-color: gray;
-	padding: 3px;
+	padding: 5px;
 }
 
 h1 {
@@ -16,10 +16,22 @@ h2 {
 }
 
 ul {
-	font: italic 1em "caption", sans-serif;
+	font: 0.9em "normal", sans-serif;
+}
+
+ol {
+	font: 1.2em "subsubheading?", sans-serif;
 }
 
 p {
+	font: 1em "body", sans-serif;
+}
+
+div {
+	display: flex;
+}
+
+.bordered {
 	font: 1em "body", sans-serif;
 	border-style: none none none solid;
 	border-color: #eeeeee;
@@ -27,7 +39,23 @@ p {
 	padding: 3px;
 }
 
+.centered {
+	text-align: center;
+}
+
 a {
 	text-decoration: none;
 	color: rgb(0,176,242);
+	padding: 0px;
+}
+
+.small-text {
+	font: 0.5em "smol", sans-serif;
+}
+
+.text-box {
+	font: 0.8em "mono", monospace;
+	background: black;
+	width: 500px;
+	display: block;
 }
