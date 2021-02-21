@@ -1,0 +1,33 @@
+body {
+	background-color: rgb(54,57,63);
+	color: white;
+	border-style: solid;
+	border-width: 10px;
+	border-color: gray;
+	padding: 3px;
+}
+
+h1 {
+	font: 2em "heading", sans-serif;
+}
+
+h2 {
+	font: 1.5em "subheading", sans-serif;
+}
+
+ul {
+	font: italic 1em "caption", sans-serif;
+}
+
+p {
+	font: 1em "body", sans-serif;
+	border-style: none none none solid;
+	border-color: #eeeeee;
+	background-color: #545763;
+	padding: 3px;
+}
+
+a {
+	text-decoration: none;
+	color: rgb(0,176,242);
+}
