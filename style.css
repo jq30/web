@@ -59,3 +59,15 @@ a {
 	width: 500px;
 	display: block;
 }
+
+.navbar {
+	color: white;
+	font: 1em "normal", sans-serif;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+nav {
+	background-color: gray;
+	padding: 5px;
+}
