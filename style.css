@@ -4,11 +4,13 @@ body {
 	border-style: dashed;
 	border-width: 2px;
 	border-color: gray;
-	padding: 5px;
+	padding: 3px;
 }
 
 h1 {
 	font: 2em "heading", sans-serif;
+	padding: 3px;
+	border-style: solid;
 }
 
 h2 {
@@ -50,7 +52,7 @@ a {
 }
 
 .small-text {
-	font: 0.5em "smol", sans-serif;
+	font: 0.5em "small", sans-serif;
 }
 
 .text-box {
@@ -68,6 +70,16 @@ a {
 }
 
 nav {
-	background-color: gray;
+	background-color: rgb(47, 49, 54);
 	padding: 5px;
+}
+
+.navselected {
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-bottom: 3px;
+	border-style: none none solid none;
+	border-color: white;
+	color: white;
+	font: 1em "normal", sans-serif;
 }
